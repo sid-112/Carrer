@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>anime</title>
+	<style type="text/css">
+		.container{
+			background-color: red;
+			height: 400px;
+		}
+		.box1{
+			border: 3px solid black;
+			height: 500px;
+			/*transform-origin: 0;*/
+			/*transform: translate(40px) rotate(45deg);*/
+			/*transform-origin: 0; */
+			/*transform: scaleX(5);*/
+
+		}
+		
+		img{
+			width: 455px;
+			transition-property: width;
+			transition-duration: .3s;
+			transition-timing-function: ease-in;
+		}
+		img:hover{
+			width: 50px;
+		}
+	</style>
+	<script type="text/javascript">
+		btn.addEventListner("click,()=>{
+			MyImg.style.width = 546px
+		})
+	</script>
+</head>
+<body>
+<div class=" container">
+	<div class="box1">
+		<img id="MyImg" src="https://source.unsplash.com/260x260/?nature,water">
+		<button id="btn">Toggle</button>
+	</div>
+</div>
+</body>
+</html>

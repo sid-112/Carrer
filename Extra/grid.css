@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+    
+    
+main {
+    width: 1200px;
+    background-color: #eeeeee;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+nav{
+    background: #d3c6b8;
+}
+
+aside{
+    background: #b09c98;
+}
+
+.box1{
+    background: #d3c6b8;
+}
+
+.box2{
+    background: #d3c6b8;
+}
+
+.box3{
+    background: #d3c6b8;
+}
+
+main-content{
+    background: #d3c6b8;
+}
+
+footer{
+    background: #b09c98;
+}
