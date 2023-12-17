@@ -8,6 +8,6 @@ public class whileloop {
             i++;
         }
 
-        System.out.println("This was by github vis git")
+        System.out.println("This was by github vis git");
     }
 }
