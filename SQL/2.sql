@@ -48,3 +48,8 @@ SELECT * FROM example_table WHERE Age >25;
 SELECT * FROM example_table LIMIT 2;
 SELECT * FROM example_table ORDER BY Age ASC;
 SELECT * FROM example_table ORDER BY Age DESC;
+
+CREATE TABLE temp(
+	Id INT PRIMARY KEY,
+	NAme VARCHAR(50)
+);
