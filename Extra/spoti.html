@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.song {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Music Player</h1>
+    </header>
+
+    <main>
+        <section class="song">
+            <h2>Song 1</h2>
+            <audio controls>
+                <source src="C:\Users\User\Downloads\Gul(PaglaSongs).mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <section class="song">
+            <h2>Song 2</h2>
+            <audio controls>
+                <source src="C:\Users\User\Downloads\Baarishein(PaglaSongs).mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+
+        <section class="song">
+            <h2>Song 3</h2>
+            <audio controls>
+                <source src="C:\Users\User\Downloads\Alag Aasmaan_128-(DJPunjab).mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 My Music Player</p>
+    </footer>
+    <script>
+        function playNext(nextSongId) {
+            const currentSong = document.getElementById(nextSongId);
+            const nextAudio = currentSong.querySelector('audio');
+            nextAudio.play();
+        }
+    </script>
+</body>
+</html>
