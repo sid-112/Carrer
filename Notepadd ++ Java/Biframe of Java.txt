@@ -1,0 +1,13 @@
+public class Tets{
+	public static void main(String args[]){
+		System.out.println("Hello World");
+	}
+}
+
+
+cd $(CURRENT_DIRECTORY)
+javac $(FILE_NAME)
+if $(EXITCODE)!=0
+exit
+endif
+java $(NAME_PART)
