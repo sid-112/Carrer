@@ -1,0 +1,22 @@
+Hello Leetcode this is Siddharth from Ahemdabad, India I have an question to add in your question list
+---------------------------------------------------------------------------
+Give an unsorted integer array of 6 numbers named nums, sort the array as the first element of the array should tell that how many times the number should be repeated, and the number after the first number is the number to be displayed as per the count 
+
+test case 1---
+input = [1, 4, 6, 7, 3, 8]  
+output = 4777777888
+explanation = the second number is 4 and the first number is 1 so the second number is the number to display and the first number is the number to how many times the display number would repeat same goes for the other two pairs i.e{(6, 7) and (3, 8)}
+
+test case 2---
+input = [4, 6, 7, 3, 5, 7]
+output = 6666333333377777
+explanation = the second number is 6 and the first number is 4 so the second number is the number to display and the first number is the number to how many times the display number would repeat same goes for the other two pairs i.e{(7, 3) and (5, 7)}
+
+test case 3---
+input = [2, 5, 0, 8, 9, 0]
+output = False
+explanation = if an number repeates 0 times return false
+---------------------------------------------------------------------------
+
+Fell Free to ask any detail
+With Regards Siddharth
