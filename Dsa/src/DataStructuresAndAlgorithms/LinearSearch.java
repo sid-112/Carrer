@@ -4,7 +4,7 @@ import java.util.*;
 class Linear_Searvh {
 
 	public static void main(String[] args) {
-		int [] arr = {4, 55, 6, 7, 7, 8,9 ,9, 45, 3};
+		int [] arr = { 4, 55, 6, 7, 7, 8,9 ,9, 45, 3};
 		
 		int index = lineaeSearch(arr, 45);
 		
