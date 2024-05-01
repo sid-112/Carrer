@@ -15,6 +15,8 @@ class Linear_Searvh {
 		else {
 			System.out.println("Are Yaar Nahi Milha");
 		}
+
+System.out.println("Hello");
 	}
 
 	private static int lineaeSearch(int[] arr, int val) {
