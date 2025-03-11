@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .menu-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            padding: 20px;
+        }
+
+        .menu-card h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .menu-item .item-name {
+            flex-grow: 1;
+            color: #555;
+        }
+
+        .menu-item .item-price {
+            font-weight: bold;
+            color: #333;
+        }
+        .menu-category{
+          margin-top: 15px;
+        }
+        .menu-category h3{
+          color: #333;
+          border-bottom: 2px solid #ddd;
+          padding-bottom: 5px;
+          margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-card">
+        <h2>Our Menu</h2>
+
+        <div class="menu-category">
+          <h3>Appetizers</h3>
+          <div class="menu-item">
+              <span class="item-name">Bruschetta</span>
+              <span class="item-price">$8.00</span>
+          </div>
+          <div class="menu-item">
+              <span class="item-name">Garlic Bread</span>
+              <span class="item-price">$6.00</span>
+          </div>
+          <div class="menu-item">
+              <span class="item-name">Spinach Dip</span>
+              <span class="item-price">$9.00</span>
+          </div>
+        </div>
+
+        <div class="menu-category">
+          <h3>Main Courses</h3>
+          <div class="menu-item">
+              <span class="item-name">Pasta Carbonara</span>
+              <span class="item-price">$14.00</span>
+          </div>
+          <div class="menu-item">
+              <span class="item-name">Grilled Salmon</span>
+              <span class="item-price">$18.00</span>
+          </div>
+          <div class="menu-item">
+              <span class="item-name">Vegetable Curry</span>
+              <span class="item-price">$12.00</span>
+          </div>
+        </div>
+
+        <div class="menu-category">
+          <h3>Desserts</h3>
+          <div class="menu-item">
+              <span class="item-name">Chocolate Cake</span>
+              <span class="item-price">$7.00</span>
+          </div>
+          <div class="menu-item">
+              <span class="item-name">Apple Pie</span>
+              <span class="item-price">$6.00</span>
+          </div>
+          <div class="menu-item">
+              <span class="item-name">Ice Cream</span>
+              <span class="item-price">$5.00</span>
+          </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
