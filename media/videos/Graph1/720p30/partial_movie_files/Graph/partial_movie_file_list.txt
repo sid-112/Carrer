@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:C:/Edu/coding/media/videos/Graph1/720p30/partial_movie_files/Graph/2016333726_3638807522_223132457.mp4'
-file 'file:C:/Edu/coding/media/videos/Graph1/720p30/partial_movie_files/Graph/543634251_3241645151_1299672511.mp4'
-file 'file:C:/Edu/coding/media/videos/Graph1/720p30/partial_movie_files/Graph/543634251_2083454832_3172485141.mp4'
-file 'file:C:/Edu/coding/media/videos/Graph1/720p30/partial_movie_files/Graph/543634251_1141282389_4228724167.mp4'
